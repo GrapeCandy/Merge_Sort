@@ -7,6 +7,9 @@ Merge Sort's Algorithm and Theory
 
 <img src="https://gmlwjd9405.github.io/images/algorithm-merge-sort/merge-sort-concepts.png"></img>
 
+
+
+
 <img src="https://gmlwjd9405.github.io/images/algorithm-merge-sort/merge-sort.png"></img>
 [출처] https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html
 
@@ -26,7 +29,7 @@ Merge Sort's Algorithm and Theory
 	  {
 		  compare two array's value and put smaller value to vector
     }
-    while (pointer that starts from first array <= mid)											//Until first array's pointer reach to end of first array
+    while (pointer that starts from first array <= mid)											
     {
       vector <- first array's remained values
     }
