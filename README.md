@@ -14,13 +14,15 @@ Merge Sort's Algorithm and Theory
 [출처] https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html
 
 
+
+
 ## Merge Sort pseudocode
 
-  MERGE-SORT(A,p,r)     ⊳A[1 . . n] , p : start point, r: end point
+  MERGE-SORT(A,p,r)        ⊳A[1 . . n] , p : start point, r: end point
   
     if p < r
     
-      q <- (p+r) / 2        ⊳q : second array's start point that separated from one array
+      q <- (p+r) / 2       ⊳q : second array's start point that separated from one array
       
       MERGE-SORT(A, p, q)
       
@@ -63,5 +65,8 @@ Merge Sort's Algorithm and Theory
   
   ## Analysis
   - 시간 복잡도 : Θ(nlgn)
+  
   - Merge-Sort의 경우 Insertion Sort와 달리 Best, Average, Worst case이 수행시간 차이가 거의 나지 않는다
+  
   - 일반적으로 sorting하려는 array의 길이가 30을 넘어야 insertion sort보다 성능이 좋아진다
+  
