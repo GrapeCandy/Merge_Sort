@@ -40,7 +40,7 @@ Merge Sort's Algorithm and Theory
 	while pointer that starts from first array <= mid && pointer that starts from second array <= end
 	{
 		compare two array's value and put smaller value to vector
-    	}
+	}
 	while (pointer that starts from first array <= mid)	
 	{
 		vector <- first array's remained values
