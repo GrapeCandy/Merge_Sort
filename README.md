@@ -17,26 +17,48 @@ Merge Sort's Algorithm and Theory
 ## Merge Sort pseudocode
 
   MERGE-SORT(A,p,r)     ⊳A[1 . . n] , p : start point, r: end point
+  
     if p < r
+    
       q <- (p+r) / 2        ⊳q : second array's start point that separated from one array
+      
       MERGE-SORT(A, p, q)
+      
       MERGE-SORT(A, q+1, r)
+      
       MERGE(A, p, r, q)
+      
+      
+    
     
   MERGE(arr[], start, end, mid)
+  
 	  vector<int>
+	  
 	  while pointer that starts from first array <= mid && pointer that starts from second array <= end
+	  
 	  {
+	  
 		  compare two array's value and put smaller value to vector
+		  
     }
-    while (pointer that starts from first array <= mid)											
+    
+    while (pointer that starts from first array <= mid)	
+    
     {
+    
       vector <- first array's remained values
+      
     }
+    
     while (pointer that starts from second array <= end)
+    
     {
+    
        vector <- second array's remained values
+       
     }
+    
          
   
   ## Analysis
