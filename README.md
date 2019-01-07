@@ -55,7 +55,7 @@ Merge Sort's Algorithm and Theory
   ## Analysis
   - 시간 복잡도 : Θ(nlgn)
   
-  - Merge-Sort의 경우 Insertion Sort와 달리 Best, Average, Worst case이 수행시간 차이가 거의 나지 않는다
+  - Merge-Sort의 경우 Insertion Sort와 달리 Best, Average, Worst case의 수행시간 차이가 거의 나지 않는다
   
   - 일반적으로 sorting하려는 array의 길이가 30을 넘어야 insertion sort보다 성능이 좋아진다
   
